@@ -1,0 +1,512 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Personal Website - Yutong Xin</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/lightbox.min.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<div class="hexagon">
+							</div>
+
+							<div class="profile-pic">
+								<img src="images/profilePic_0.png" />
+							</div>
+						</div>
+
+						<div class="content">
+							<div class="inner">
+								<h1>Greetings! 👋</h1>
+								<p>You've reached the website of <span id="myName">Yutong Xin</span>, hopefully not by accident :P 
+									<br />
+									But regarlessly, welcome!
+								</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Intro</a></li>
+								<li><a href="#projects">Projects</a></li>
+								<li><a href="#research">Research</a></li>
+								<li><a href="#life"> ☀︎\math⋁cs</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">Intro</h2>
+								<span class="image main"><img src="images/intro_pic.JPG" alt="" /></span>
+								<p> Hi there! I'm Yutong(Maxine) Xin, currently working happily as a software engineer at Moody's Analytics.
+									I guaduated from University of Richmond🕷 in May 2020 with B.S. in Computer Science and Mathematics.
+								</p>
+
+								<p>Algebra and graph algorithms are two of my favorite areas in Math and CS, respectively.
+								   I've been doing research on both of the areas, and you can 
+								   <a href="#research">find more here</a>
+
+								</p>
+
+								<p>To be a good future software engineer and mathematician, of course I should always stay
+									curious to other topics as well. So I also explored projects around front-end &amp; back-end 
+									developing, simulation, geometry, and <a href="#projects">more</a>.
+								</p>
+
+								<p>
+									And yes my life subtracting my academics is not an empty set, fortunately, and if you
+									do want to know a more comprehensive version of me, <a href="#life">click here</a>! : >
+								</p>
+
+
+							</article>
+
+						<!-- Projects -->
+							<article id="projects">
+								<h2 class="major">Projects</h2>
+								<span class="image main"><img src="images/project_pic.jpg" alt="" /></span>
+
+                                <button type="button" class="collapsible" >Traffic Simulation</button>
+								<div class="content" id="proj-simulation">
+									<p>This is a traffic simulation project I worked on with Hanglin Zhou and Will Saada. An input file decides the length
+										of green light time, and probability of cars coming from each direction. Here goes the demo!
+										<video class="video main" controls>
+											<source src="videos/demo_240.mov" type="video/mp4">
+										</video>
+										</caption><i>TRAFFIC SIMULATION</i></caption>
+									</p>
+								</div>
+								<br/>
+
+                                <button type="button" class="collapsible">Pipeline Simulation with MIPS Instructions</button>
+								<div class="content" id="proj-pipeline">
+									<p> This project simulates the processing of three different types of pipelines. It takes in 
+									the binary encodings of a list of MIPS instructions, test their validity, convert them into MIPS instructions,
+									and run the ideal pipeline, pipeline with stall, and pipeline with forwarding strategy with the input instructions.
+									The processing data and time needed will be printed to the stdout. To find out more details, check out my github 
+									<a href="https://github.com/mx-xn/301_pipeline_simulation">here</a>.
+								</p>
+								</div>
+								<br/>
+
+                                <button type="button" class="collapsible"><underline>Fenchel's Theorem and Total Curvature</underline></button>
+								<div class="content" id="proj-geometry">
+									<p>
+										As part of my Math Honor's program, I did some extra exploration with curvatures in differential geometry.
+										I along with Rachel Morris presented on Fenchel's Theorem about total curvature of closed curves, by 
+										giving detailed explanations to the concepts, preliminary lemmas, and the proof itself. I personally had 
+										a lot of fun with plotting the graphs in Mathematica.
+									    <video class="video main" controls>
+											<source src="videos/demo_geometry.mov" type="video/mp4">
+										</video>
+										</caption><i>TANGENT INDICATIX FOR A TREFOIL</i></caption>	
+										<br/>
+										<br/>
+										To find out more, our presentation awaits <a href="pdf/geometry_presentation.pdf">here</a>!
+									</p>
+								</div>
+								<br/>
+								<br/>
+								<br/>
+							</article>
+
+						<!-- Research -->
+							<article id="research">
+								<h2 class="major">Research</h2>
+								<span class="image main"><img src="images/research_pic.jpg" alt="" /></span>
+                                <button type="button" class="collapsible" >Almost Difference Set</button>
+								<div class="content" id="research-math">
+										Difference sets have been studied for decades due to their applications in digital communication,
+										cryptography, algebra, and number theory. Almost difference sets, on the other hand, have similar
+										 functionalities, yet with more potential of finding new constructions. 
+										 We explored almost difference sets in cyclic and non-cyclic groups to search for possible 
+										 constructions, during which I also build programming tools to automate and speed up the exploration process.
+										 To learn more about what I did, feel free to check out my Honor's thesis 
+										 <a href="https://scholarship.richmond.edu/cgi/viewcontent.cgi?article=2511&context=honors-theses"> here</a>!
+								</div>
+								<br/>
+
+                                <button type="button" class="collapsible">Coloring Graphs and Connectivity</button>
+								<div height="800" class="content" id="research-cs">
+									<p>Reconfiguration problems have been studied and applied to solve problems in various areas, 
+									   including in Math, Computer science, and Chemistry. Due to the close relatedness between 
+									   coloring graphs and reconfiguration problem, the connectivity and structure of coloring graphs give valuable 
+									   information to a solution set of the corresponding reconfiguration problems. 
+									   We've been exploring 2-connectedness and cut-vertices of coloring graphs, and 
+									   forbidden structures on a coloring graph with cut-vertices. We have also built a computing and visualization tool
+									   to assist our research process. 
+									</p>
+
+									<video class="video main" controls>
+										<source src="videos/demo.mov" type="video/mp4">
+									</video>
+									</caption><i>DEMO OF VISULIZATION TOOL</i></caption>
+									<br/>
+									<br/>
+
+									If you think this is cool, please feel free to check out <a href="pdf/poster_graphColoringResearch.pdf">my poster</a> on the topic! It is one of my
+									proudest product :D
+
+									<p>If you are insterested in learning even more, find out 
+										<a href="https://scholarship.richmond.edu/cgi/viewcontent.cgi?article=2510&context=honors-theses"> here</a>
+										in my other Honor's Thesis!</p>
+
+								</div>
+								<br/>
+								<br/>
+								<br/>
+
+							</article>
+
+						<!-- life-->
+							<article id="life">
+								<span class="image main"><img src="images/life_pic.JPEG" alt="" /></span>
+								<h2 class="major">Life outside Academics & Work</h2>
+								<button type="button" class="collapsible" >Everything about Food</button>
+								<div class="content" id="everything-about-food">
+									Outside my work, the first, foremost, hugest passion of mine lies in <b>FOOD</b>. I love to eat,
+								cook, try new restaurants, spend a big chunk of time yelping, and even shopping for groceries. I have
+								to say in my personal and biased opinion, cooking and meals are really one of the greatest products
+								of human civilization.
+								<br/>
+									<div>
+									<a href="images/food/1.JPG" data-lightbox="mygallery"><img class="image gallery" src="images/food/1s.JPG"></a>
+									<a href="images/food/2.JPG"><img class="gallery" src="images/food/2s.JPG"></a>
+									<a href="images/food/3.JPG"><img class="gallery" src="images/food/3s.JPG"></a>
+									<a href="images/food/8.JPG"><img class="gallery" src="images/food/8s.JPG"></a>
+									<a href="images/food/5.PNG"><img class="gallery" src="images/food/5s.PNG"></a>
+									<a href="images/food/6.PNG"><img class="gallery" src="images/food/6s.PNG"></a>
+									<a href="images/food/7.PNG"><img class="gallery" src="images/food/7s.PNG"></a>
+									<a href="images/food/x1.PNG"><img class="gallery" src="images/food/x1s.PNG"></a>
+									</div>
+								</div>
+								<br/>
+								<button type="button" class="collapsible" >Things other than food...</button>
+								<div class="content" id="everything-else">
+									Considering how deeply I fell in love with food, it is actually fair even if everything else
+									goes in here...
+									<br/>
+									<br/>
+									I really love to sing! I was in women's choir in college, and maybe someday in the future I'll think about
+									joining a community choir, since I am really missing singing right now. D:
+									<br/>
+									<br/>
+									Fitness is another big part of my life. It together with my passion for food serve reciprocally as the 
+									motivation for each other. After quarantine starts, strength training has been quite hard, so I adopted 
+									running, thanks to Haruki Murakami. Something he wrote in his book <i>What I Talk about When I Talk 
+									about Running</i> made me start my running journey, and I'd like to share it here.
+
+									<blockquote>
+										"In certain areas of my life, I actively seek out solitude." 
+										<br/>
+										<br/>
+										"When I'm running I don't have to talk to anybody and don't have to listen to anybody. This is part
+										of my day I can't do without."
+										<br/>
+										<br/>
+										<p> ------Haruki Murakami</p>                                                
+									</blockquote>
+								</div>
+								<br/>
+								<br/>
+								<br/>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<span class="image main"><img src="images/contact_pic.JPEG" alt="" /></span>
+								<h2 class="major">Contact</h2>
+								<ul class="icons">
+									<li><a href="mailto:maxin.xin.sds@gmail.com" class="icon brans fa-envelope"><span class="label">Email</span></a></li>
+									<a href="mailto:maxin.xin.sds@gmail.com">maxin.xin.sds@gmail.com</a>
+									<br/>
+									<br/>
+									<li><a href="https://www.linkedin.com/in/yutong-xin/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<a href="https://www.linkedin.com/in/yutong-xin/">https://www.linkedin.com/in/yutong-xin/</a>
+									<br/>
+									<br/>
+									<li><a href="https://github.com/mx-xn?tab=repositories" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<a href="https://github.com/mx-xn?tab=repositories">https://github.com/mx-xn?tab=repositories</a>
+								</ul>
+							</article>
+
+						<!-- Elements -->
+<!--							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article> -->
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<!-- <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p> -->
+					</footer>
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/lightbox-plus-jquery.min.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/home.js"></script>
+	</body>
+</html>
