@@ -1343,51 +1343,7 @@ input, select, textarea {
 		}
 
 		 
-		#header .logo .hexagon {
-			position: relative;
-			left: 5px; 
-			width: 125px; 
-			height: 72.17px;
-			background-color: #cdcdcd transparent;
-			margin: 3.08px -12px;
-			border-left: solid 1px #f2f2f2;
-			border-right: solid 1px #f2f2f2;
-		}
-		  
-			#header .logo .hexagon:before,
-			#header .logo .hexagon:after {
-				content: "";
-				position: absolute;
-				z-index: 1;
-				width: 88.39px;
-				height: 88.39px;
-				-webkit-transform: scaleY(0.5774) rotate(-45deg);
-				-ms-transform: scaleY(0.5774) rotate(-45deg);
-				transform: scaleY(0.5774) rotate(-45deg);
-				background-color: inherit;
-				left: 17.3058px;
-			}
-		  
-			#header .logo .hexagon:before {
-				top: -44.1942px;
-				border-top: solid 1.4142px #f2f2f2;
-				border-right: solid 1.4142px #f2f2f2;
-			}
-			
-			#header .logo .hexagon:after {
-				bottom: -44.1942px;
-				border-bottom: solid 1.4142px #f2f2f2;
-				border-left: solid 1.4142px #f2f2f2;
-			}
-		  
-
-			#header .logo .hexagon .fas {
-				position: absolute;
-				top: 5px;
-				left: 25.5px;
-				font-size: 4em;
-			}
-
+		 
 
         #header  .logo .profile-pic img{
 			position: absolute;
